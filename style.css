@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fauna+One&display=swap');
+
+
+body{
+    background-image: url("background-destination-desktop.jpg");
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px grey;
+    margin: 0px 172px;
+    font-family: Cinzel, serif;
+  font-size: 46px;
+  }
+
+.wrapper{
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    height: 600px;
+    max-width: 720px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:  0 0 25px white, 0 0 5px white;
+    background-image: url("background-destination-desktop.jpg");
+    
+}
+
+#Word_Input{
+    width: 565px;
+    height: 250px;
+    margin: 20px 75px 0px;
+    border-radius: 5px;
+    border: 5px solid black;
+    font-family: 'Fauna One', serif;
+    font-size: 16px; 
+    resize: none;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin: 10px 75px 0px ;
+    border-radius: 5px;
+    background-image: linear-gradient(135deg,rgb(41, 234, 41),rgb(91, 223, 209));
+    font-family: 'Fauna One', serif;
+    font-size: 16px; 
+    
+}
+
+button:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+#character_count{
+    width: 275px ;
+    background-image: linear-gradient(135deg,grey,white);
+    margin: 20px 10px 5px 75px;
+    padding: 10px;
+    border: 2px solid ;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow:  0 0 25px blue, 0 0 5px darkblue;
+    font-family: 'Fauna One', serif;
+     font-size: 16px; 
+}
+
+#char_without_space{
+    width: 275px ;
+    background-image: linear-gradient(135deg,grey,white);
+    margin: 20px 75px 5px 10px; 
+    padding: 10px;
+    border: 2px solid ;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow:  0 0 25px blue, 0 0 5px darkblue;
+    font-family: 'Fauna One', serif;
+    font-size: 16px; 
+}
+
+.upper{
+    display: inline-flex;
+}
+
+#word_count {
+    width: 275px ;
+    background-image: linear-gradient(135deg,grey,white);
+    margin: 5px 75px 20px 10px; 
+    padding: 10px;
+    border: 2px solid ;
+    box-sizing: border-box;
+    position: static;
+    border-radius: 10px;
+    box-shadow:  0 0 25px blue, 0 0 5px darkblue;
+    font-family: 'Fauna One', serif;
+    font-size: 16px; 
+}
+
+#sentence_count{
+    width: 275px ;
+    background-image: linear-gradient(135deg,grey,white);
+    margin: 5px 10px 20px 75px;
+    padding: 10px;
+    border: 2px solid ;
+    box-sizing: border-box;
+    position: static;
+    border-radius: 10px;
+    box-shadow:  0 0 25px blue, 0 0 5px darkblue;
+    font-family: 'Fauna One', serif;
+    font-size: 16px; 
+}
+
+.lower{
+    display: inline-flex;
+}
+
+#sentence_count:hover,#word_count:hover,#character_count:hover,#char_without_space:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    
+}
+

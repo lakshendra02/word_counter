@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>
+                Word Counter
+            </h1>
+
+            
+                <form>
+                    <textarea id="Word_Input" placeholder="Write or paste your text"></textarea>
+                </form>
+            
+        
+            <button onclick=count()>
+                Calculate
+            </button>
+
+            <div class="result">
+                <div class="upper">
+                    <div id="character_count">Characters: <br> 0</div>
+                    <div id="char_without_space">Characters without spaces: <br> 0</div>
+                </div>
+                <div class="lower">
+                    <div id="sentence_count">Sentences: <br> 0</div>
+                    <div id="word_count">Words: <br> 0</div>
+                </div>
+            </div>
+
+        </div>
+        
+        <script src="script.js"></script>
+
+    </body>
+</html>
